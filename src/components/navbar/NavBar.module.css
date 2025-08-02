@@ -1,9 +1,10 @@
 .navbar {
   font-size: 18px;
-  background: white;
+  background: darkred;
   height: 50px;
   display: flex;
   justify-content: flex-end;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
 }
 
 .link {
@@ -11,10 +12,10 @@
   padding: 10px;
   line-height: 30px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .link:hover {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }

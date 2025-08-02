@@ -4,6 +4,7 @@ import { FirstDesign } from "./pages/FirstDesign";
 import { ThirdDesign } from "./pages/ThirdDesign";
 import { SecondDesign } from "./pages/SecondDesign";
 import { NavBar } from "./components/navbar/NavBar";
+import { NotFound } from "./pages/NotFound";
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
         <Route path="/second-design" element={<SecondDesign />} />
         <Route path="/third-design" element={<ThirdDesign />} />
         <Route path="/fourth-design" element={<FourthDesign />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </>
   );
