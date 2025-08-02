@@ -1,0 +1,15 @@
+.button {
+  width: auto;
+  height: 30px;
+  padding: 5px 10px;
+  color: gray;
+  background: white;
+  border: none;
+  outline: 0.5px solid gray;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+  cursor: pointer;
+}

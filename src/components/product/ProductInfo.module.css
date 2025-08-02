@@ -1,0 +1,23 @@
+.image {
+  height: 120px;
+  align-self: center;
+}
+
+.description {
+  text-align: justify;
+}
+
+.name {
+  color: black;
+  opacity: 0.7;
+}
+
+.seller {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: 400;
+}
