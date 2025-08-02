@@ -1,3 +1,11 @@
+import { ProfileCard } from "../components/profile-card/ProfileCard";
+
 export const SecondDesign = () => {
-  return <></>;
+  return (
+    <>
+      <div>
+        <ProfileCard />
+      </div>
+    </>
+  );
 };

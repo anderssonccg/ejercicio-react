@@ -1,6 +1,6 @@
 import style from "./Pages.module.css";
-import { NotFoundImage } from "../components/NotFoundImage";
-import { NotFoundTitle } from "../components/NotFoundTitle";
+import { NotFoundImage } from "../components/not-found/NotFoundImage";
+import { NotFoundTitle } from "../components/not-found/NotFoundTitle";
 
 export const NotFound = () => {
   return (
