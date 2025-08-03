@@ -1,9 +1,10 @@
+import style from "./Pages.module.css";
 import { ProfileCard } from "../components/profile-card/ProfileCard";
 
 export const SecondDesign = () => {
   return (
     <>
-      <div>
+      <div className={style.container}>
         <ProfileCard />
       </div>
     </>

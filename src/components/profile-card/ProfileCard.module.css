@@ -1,0 +1,57 @@
+.card {
+  height: 410px;
+  padding: 20px 40px;
+  width: 350px;
+  outline: 2px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  height: 150px;
+  width: 150px;
+  padding: 2px;
+  border-radius: 100%;
+  outline: 2px solid blueviolet;
+}
+
+.name {
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+  color: blueviolet;
+}
+
+.ratingContainer {
+  display: flex;
+  margin-bottom: 15px;
+  gap: 3px;
+}
+
+.star {
+  color: blueviolet;
+}
+
+.description {
+  text-align: justify;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+  outline: 1px solid blueviolet;
+  border-radius: 5px;
+  width: 130px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  justify-content: space-between;
+}
