@@ -5,6 +5,7 @@ import { ThirdDesign } from "./pages/ThirdDesign";
 import { SecondDesign } from "./pages/SecondDesign";
 import { NavBar } from "./components/navbar/NavBar";
 import { NotFound } from "./pages/NotFound";
+import { Footer } from "./components/footer/Footer";
 
 export const App = () => {
   return (
@@ -17,6 +18,7 @@ export const App = () => {
         <Route path="/fourth-design" element={<FourthDesign />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 };
