@@ -1,0 +1,85 @@
+.card {
+  display: flex;
+  width: 500px;
+  height: 180px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 /0.2);
+  transition: all 0.1s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cover {
+  border-radius: 10px 0 0 10px;
+  height: 180px;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.artist {
+  font-size: 25px;
+}
+
+.artistType {
+  font-size: 15px;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.songName {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.yearReleased {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.buttonContainer {
+  align-items: center;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag {
+  background-color: lightcoral;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.heartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.heartContainer:hover {
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+.heart {
+  width: 28px;
+  height: 28px;
+}
+
+.heartLiked {
+  width: 28px;
+  height: 28px;
+  color: red;
+}

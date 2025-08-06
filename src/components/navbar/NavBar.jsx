@@ -17,6 +17,9 @@ export const NavBar = () => {
         <Link className={style.link} to="/fourth-design">
           Fourth Design
         </Link>
+        <Link className={style.link} to="/playlist">
+          Playlist
+        </Link>
       </nav>
     </>
   );
